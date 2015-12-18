@@ -1,0 +1,368 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"pas",
+				"pasteurl"
+			],
+			[
+				"h",
+				"html	html"
+			],
+			[
+				"re",
+				"render"
+			],
+			[
+				"Pastebin",
+				"PastebinForm"
+			],
+			[
+				"Pas",
+				"PastebinAdmin"
+			],
+			[
+				"Pa",
+				"PastebinForm"
+			],
+			[
+				"p",
+				"Pastebin"
+			],
+			[
+				"full",
+				"full_name"
+			],
+			[
+				"EMAIL_HOS",
+				"EMAIL_HOST_USER"
+			],
+			[
+				"EMAI",
+				"EMAIL_HOST_USER"
+			],
+			[
+				"r",
+				"request"
+			],
+			[
+				"ful",
+				"full_name"
+			],
+			[
+				"clea",
+				"cleaned_data"
+			],
+			[
+				"SignUp",
+				"SignUpForm"
+			],
+			[
+				"SIgn",
+				"SignUpAdmin"
+			],
+			[
+				"AU",
+				"auto_now_add"
+			],
+			[
+				"django",
+				"djangodblog"
+			],
+			[
+				"my",
+				"myfile"
+			],
+			[
+				"A",
+				"AnotherClass"
+			],
+			[
+				"str",
+				"stri"
+			],
+			[
+				"char",
+				"charAt"
+			],
+			[
+				"n",
+				"nextInt"
+			],
+			[
+				"sy",
+				"System"
+			],
+			[
+				"if",
+				"ifscCode"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "Packages/Java/JavaC.sublime-build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Java/Ant.sublime-build",
+					""
+				],
+				[
+					"Packages/Java/JavaC.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/Java/JavaC.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/santy/Desktop/Python/Django/venvdjango/src/pastebin/templates/result.html",
+		"/home/santy/Desktop/Python/Django/venvdjango/src/pastebin/pastebin/urls.py",
+		"/home/santy/Desktop/Python/Django/venvdjango/src/pastebin/pastebinapp/views.py",
+		"/home/santy/Desktop/Python/Django/venvdjango/src/pastebin/pastebinapp/models.py",
+		"/home/santy/Desktop/Python/Django/venvdjango/src/pastebin/templates/home.html",
+		"/home/santy/Desktop/Python/Django/venvdjango/src/pastebin/pastebinapp/admin.py",
+		"/home/santy/Downloads/django-pastebin-master/pastebin/forms.py",
+		"/home/santy/Downloads/django-pastebin-master/pastebin/models.py",
+		"/home/santy/Desktop/Python/Django/venvdjango/src/pastebin/manage.py",
+		"/home/santy/Desktop/Python/Django/venvdjango/src/pastebin/pastebinapp/mycode.py",
+		"/home/santy/Desktop/Python/Django/venvdjango/src/pastebin/pastebinapp/forms.py",
+		"/home/santy/Desktop/Python/Django/venvdjango/src/pastebin/pastebin/settings.py",
+		"/home/santy/Desktop/Python/Django/venvdjango/src/pastebin/random.py",
+		"/home/santy/Desktop/Python/Django/venvdjango/src/trydjango18/trydjango18/urls.py",
+		"/home/santy/Desktop/Python/Django/venvdjango/src/trydjango18/trydjango18/settings.py",
+		"/home/santy/Desktop/Python/Django/venvdjango/src/swd/swd/settings.py",
+		"/home/santy/Desktop/Python/Django/venvdjango/src/trydjango18/newsletter/views.py",
+		"/home/santy/Desktop/Python/Django/venvdjango/src/trydjango18/newsletter/forms.py",
+		"/home/santy/Desktop/Python/Django/venvdjango/src/trydjango18/templates/forms.html",
+		"/home/santy/Desktop/Python/Django/venvdjango/src/trydjango18/templates/home.html",
+		"/home/santy/Desktop/Python/Django/venvdjango/src/trydjango18/newsletter/admin.py",
+		"/home/santy/Desktop/Python/Django/venvdjango/src/trydjango18/newsletter/models.py",
+		"/home/santy/Desktop/Python/Django/venvdjango/src/trydjango18/forms.py",
+		"/home/santy/Desktop/Python/Django/venvdjango/src/trydjango18/newsletter/templates/home.html",
+		"/home/santy/Desktop/Python/Django/django_test/article/models.py",
+		"/home/santy/Desktop/Python/Django/django_test/django_test/settings.py",
+		"/home/santy/Desktop/Python/Django/mysite/polls/models.py",
+		"/home/santy/Desktop/Python/Django/django_bookmarks/manage.py",
+		"/home/santy/Desktop/Python/Django/frobshop/frobshop/urls.py",
+		"/home/santy/Desktop/Python/Django/mysite/mysite/settings.py",
+		"/home/santy/Desktop/Python/shuffle.py",
+		"/home/santy/Desktop/Python/regex.py",
+		"/home/santy/Desktop/Python/Python.txt",
+		"/home/santy/Desktop/Python/Django/frobshop/frobshop/settings.py",
+		"/home/santy/Desktop/Python/Django/django_bookmarks/django_bookmarks/settings.py",
+		"/home/santy/Desktop/Python/Django/ecomstore/ecomstore/settings.py",
+		"/home/santy/Desktop/Python/Django/ecomstore/ecomstore.cnf",
+		"/home/santy/Desktop/SWD/index.html",
+		"/home/santy/Downloads/Lecture 9 - Materials/Codes/HelloWorldFrame.java",
+		"/home/santy/Desktop/Python/test.java",
+		"/home/santy/Desktop/Java/Codes/WrapperDemo.java",
+		"/home/santy/Desktop/Java/Lecture 5/Codes/Player/Bowler.java",
+		"/home/santy/Desktop/Java/Lecture 5/Codes/Player/Cricketer.java",
+		"/home/santy/Desktop/Java/Lecture 5/Codes/Player/Batsman.java",
+		"/home/santy/Desktop/Java/Lecture 5/Codes/Player/Player.java",
+		"/home/santy/Downloads/Lecture 9 - Materials/Codes/StudentMain.java",
+		"/home/santy/Desktop/Java/Q2/Student.java",
+		"/home/santy/Desktop/Java/Lecture 5/Codes/InheritanceDemo3.java",
+		"/home/santy/Desktop/Java/Q2/StudentManager.java",
+		"/home/santy/Desktop/Java/Q2/StudentMain.java",
+		"/home/santy/Desktop/Java/Codes/LinkedListDemo.java",
+		"/home/santy/Desktop/Java/Codes/ArrayListDemo.java",
+		"/home/santy/Downloads/Lecture 9 - Materials/Codes/Student.java",
+		"/home/santy/Desktop/Java/Codes/Stack.java",
+		"/home/santy/.cache/.fr-6MMyBX/src/Vegetables/Vegetable.java",
+		"/home/santy/.cache/.fr-xG28sw/src/Fruits/Watermelon.java",
+		"/home/santy/.cache/.fr-ufIws5/src/Fruits/Fruit.java",
+		"/home/santy/Downloads/Lecture 9 - Materials/Codes/HelloWorldMain.java",
+		"/home/santy/Desktop/Python/set.py",
+		"/home/santy/Desktop/Python/OS.py",
+		"/home/santy/Desktop/Python/14O.py",
+		"/home/santy/Desktop/Python/Vehicle.py",
+		"/home/santy/Desktop/Python/Person.py",
+		"/home/santy/Desktop/Python/Car.py",
+		"/opt/lampp/htdocs/hello.php",
+		"/home/santy/Downloads/test.c",
+		"/home/santy/Downloads/ifelse.py",
+		"/home/santy/Downloads/reverse",
+		"/home/santy/Desktop/Python/fizzbuzz.py",
+		"/home/santy/Downloads/hello.php",
+		"/home/santy/Downloads/test.java",
+		"/home/santy/git-tut/cloned/new",
+		"/home/santy/git-tut/newfile.txt",
+		"/home/santy/Downloads/input.class",
+		"/home/santy/Downloads/Bank.class",
+		"/home/santy/Downloads/Bank.java",
+		"/home/santy/Downloads/input.java",
+		"/home/santy/git-tut/hello.txt",
+		"/home/santy/Downloads/union1.py",
+		"/home/santy/Downloads/intersect1.py"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"static",
+			")",
+			"media",
+			"authenti"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 112.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 112.0
+	},
+	"pinned_build_system": "",
+	"project": "cabpool.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 251.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
