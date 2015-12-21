@@ -3,6 +3,9 @@
 	[
 		{
 			"path": "."
+		},
+		{
+			"path": "/home/santy/Desktop/Python/Django/cabpool/staticfiles"
 		}
 	]
 }

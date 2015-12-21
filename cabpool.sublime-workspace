@@ -4,16 +4,20 @@
 		"selected_items":
 		[
 			[
+				"a",
+				"auto_now_add"
+			],
+			[
+				"re",
+				"request"
+			],
+			[
 				"pas",
 				"pasteurl"
 			],
 			[
 				"h",
 				"html	html"
-			],
-			[
-				"re",
-				"render"
 			],
 			[
 				"Pastebin",
@@ -103,6 +107,14 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "cabpool/settings.py",
+			"settings":
+			{
+				"buffer_size": 2688,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "Packages/Java/JavaC.sublime-build",
 	"build_system_choices":
@@ -150,8 +162,20 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
+	"expanded_folders":
+	[
+		"/home/santy/Desktop/Python/Django/cabpool/src",
+		"/home/santy/Desktop/Python/Django/cabpool/src/cabpool"
+	],
 	"file_history":
 	[
+		"/home/santy/Desktop/Python/Django/cabpool/src/sample/models.py",
+		"/home/santy/Desktop/Python/Django/cabpool/src/cabpool/settings.py",
+		"/home/santy/Desktop/Python/Django/cabpool/src/templates/home.html",
+		"/home/santy/Desktop/Python/Django/cabpool/src/sample/templates/home.html",
+		"/home/santy/Desktop/Python/Django/cabpool/src/cabpool/urls.py",
+		"/home/santy/Desktop/Python/Django/cabpool/src/sample/templates/home.htm",
+		"/home/santy/Desktop/Python/Django/cabpool/src/sample/views.py",
 		"/home/santy/Desktop/Python/Django/venvdjango/src/pastebin/templates/result.html",
 		"/home/santy/Desktop/Python/Django/venvdjango/src/pastebin/pastebin/urls.py",
 		"/home/santy/Desktop/Python/Django/venvdjango/src/pastebin/pastebinapp/views.py",
@@ -270,8 +294,39 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "cabpool/settings.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2688,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1909,
+								1909
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 787.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -357,7 +412,7 @@
 	{
 	},
 	"show_minimap": true,
-	"show_open_files": false,
+	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
 	"side_bar_width": 251.0,
