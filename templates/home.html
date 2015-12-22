@@ -1,5 +1,70 @@
-<h1>{{ template_title }}</h1>
-<form method="POST" action="">{% csrf_token %}
-{{ form.as_p }}
-<input type="submit" value="Sign Up">
-</form>
+{% extends "base.html" %}
+{% load crispy_forms_tags %}
+
+
+
+{% block head_title %}Welcome | {{ block.super }}{% endblock %}
+
+<style>
+{% block style %}
+
+
+{% endblock %}
+</style>
+
+
+     
+{% block jumbotron %}
+
+<div class="jumbotron">
+	<div class="row">
+		<div class='col-sm-6'>
+		<h1>Try Django 1.8</h1>
+		<p>The MVP Landing project is designed to get your project started. The goal is to help you launch as soon as possible with the least amount of investment using time or money. Join Us today.</p>
+		<p>
+		<a class="btn btn-lg btn-primary" href="" role="button">Join Us &raquo;</a>
+		</p>
+		</div>
+		<div class='col-sm-6' style="background-color:black;height:300px;">
+
+		</div>
+
+	</div>
+ </div>
+{% endblock %}
+
+
+
+
+{% block content %}
+<div class="row">
+
+  <div class="col-sm-3 pull-right">
+  	
+			<p class='lead text-align-center'>{{ title }}</p>
+
+			<form method='POST' action=''>{% csrf_token %}
+			{{ form|crispy }}
+
+			<input class='btn btn-primary' type='submit' value='Sign Up' />
+
+			</form>
+	</div>
+
+	<div class='col-sm-3'>
+<p class='lead text-align-center'>Built with Django &amp; Bootstrap</p>
+</div>
+
+<div class='col-sm-3'>
+<p class='lead text-align-center'>Created for Starters of all kinds. </p>
+</div>
+
+<div class='col-sm-3'>
+<p class='lead text-align-center'>Always Open Source</p>
+</div>
+
+
+</div>
+
+
+{% endblock %}
