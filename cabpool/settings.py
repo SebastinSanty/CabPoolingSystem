@@ -40,6 +40,7 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
     'crispy_forms',
     'registration',
+    'social.apps.django_app.default',
     'sample',
 )
 
@@ -67,10 +68,44 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+                'social.apps.django_app.context_processors.backends',
+                'social.apps.django_app.context_processors.login_redirect',
             ],
         },
     },
 ]
+
+AUTHENTICATION_BACKENDS = (
+  'social.backends.facebook.FacebookOAuth2',
+  'social.backends.google.GoogleOAuth2',
+  'social.backends.twitter.TwitterOAuth',
+  'django.contrib.auth.backends.ModelBackend',
+)
+PIPELINE = (
+  'social.pipeline.social_auth.social_details',
+  'social.pipeline.social_auth.social_uid',
+  'social.pipeline.social_auth.auth_allowed',
+  'social.pipeline.social_auth.social_user',
+  'social.pipeline.user.get_username',
+  # 'social.pipeline.mail.mail_validation',
+  'social.pipeline.social_auth.associate_by_email',
+  'social.pipeline.user.create_user',
+  'social.pipeline.social_auth.associate_user',
+  'social.pipeline.social_auth.load_extra_data',
+  'social.pipeline.user.user_details'
+)
+#Step 3
+SOCIAL_AUTH_GOOGLE_OAUTH2_KEY = ""
+SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = ""
+
+#step 4
+SOCIAL_AUTH_TWITTER_KEY = ""
+SOCIAL_AUTH_TWITTER_SECRET = ""
+
+#step 4
+SOCIAL_AUTH_FACEBOOK_KEY = "1147647805246777"
+SOCIAL_AUTH_FACEBOOK_SECRET = "ce9c941fa5cff15fa0a7b7779653a260"
+
 
 WSGI_APPLICATION = 'cabpool.wsgi.application'
 
@@ -114,9 +149,12 @@ STATICFILES_DIRS = (
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(os.path.dirname(BASE_DIR),"staticfiles","media_root ")
 
+#Django Registration Redux
 ACCOUNT_ACTIVATION_DAYS = 7
 REGISTRATION_AUTO_LOGIN = True
 
+#Crispy FORM TAGs Settings
 CRISPY_TEMPLATE_PACK = 'bootstrap3'
 
 SITE_ID = 1
+LOGIN_REDIRECT_URL = "/"
