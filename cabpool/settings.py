@@ -41,6 +41,7 @@ INSTALLED_APPS = (
     'crispy_forms',
     'registration',
     'social.apps.django_app.default',
+    'homepro',
     'sample',
 )
 
@@ -105,7 +106,7 @@ SOCIAL_AUTH_TWITTER_SECRET = ""
 #step 4
 SOCIAL_AUTH_FACEBOOK_KEY = "1147647805246777"
 SOCIAL_AUTH_FACEBOOK_SECRET = "ce9c941fa5cff15fa0a7b7779653a260"
-
+SOCIAL_AUTH_FACEBOOK_SCOPE = ['email']
 
 WSGI_APPLICATION = 'cabpool.wsgi.application'
 
