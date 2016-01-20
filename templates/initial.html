@@ -20,13 +20,13 @@
 	<div class="row">
 		<div class='col-sm-6'>
 		<h1>Try Django 1.8</h1>
-		<p>The MVP Landing project is designed to get your project started. The goal is to help you launch as soon as possible with the least amount of investment using time or money. Join Us today.</p>
+		<p>Cabpool allows you to share cabs</p>
 		<p>
 		<a class="btn btn-lg btn-primary" href="" role="button">Join Us &raquo;</a>
 		</p>
 		</div>
-		<div class='col-sm-6' style="background-color:black;height:300px;">
-
+		<div class='col-sm-6'>
+    <i class = "fa fa-4x fa-taxi" style = "padding:150px"></i>
 		</div>
 
 	</div>
@@ -46,10 +46,11 @@
       </a>
       {% endif %}
      {% if request.user.is_authenticated %}
-     	{{ request.user.email }}
-     	
-     	<a href="{% url 'social:disconnect' 'facebook' %}">
-        <i class="fa fa-facebook"></i> Logout
+     	{{ request.user.email }} <br>
+      {{ request.user.name }} <br>
+      {{ request.user.id }}<br>
+     	<a href="/logout">
+     	<button type="submit" value = "lo" class="btn btn-primary" name = "logout">Log out</button>
       </a>
      {% endif %}
   	</div>

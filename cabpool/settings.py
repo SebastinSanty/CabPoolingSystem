@@ -39,10 +39,10 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'crispy_forms',
-    'registration',
+
     'social.apps.django_app.default',
     'homepro',
-    'sample',
+
 )
 
 MIDDLEWARE_CLASSES = (
@@ -107,6 +107,11 @@ SOCIAL_AUTH_TWITTER_SECRET = ""
 SOCIAL_AUTH_FACEBOOK_KEY = "1147647805246777"
 SOCIAL_AUTH_FACEBOOK_SECRET = "ce9c941fa5cff15fa0a7b7779653a260"
 SOCIAL_AUTH_FACEBOOK_SCOPE = ['email']
+FACEBOOK_EXTENDED_PERMISSIONS = ['email']
+SOCIAL_AUTH_FACEBOOK_PROFILE_EXTRA_PARAMS = {
+    'fields': 'id,name,email', 
+}
+
 
 WSGI_APPLICATION = 'cabpool.wsgi.application'
 

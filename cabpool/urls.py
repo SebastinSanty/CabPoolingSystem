@@ -8,12 +8,13 @@ urlpatterns = [
     # Examples:
     url(r'^$', 'homepro.views.home', name='home'),
     # url(r'^blog/', include('blog.urls')),
-    url(r'^contact/$', 'sample.views.contact', name='contact'),
-    url(r'^about/$', 'sample.views.contact', name='about'),
+    # url(r'^contact/$', 'sample.views.contact', name='contact'),
+    # url(r'^about/$', 'sample.views.contact', name='about'),
 
     url(r'^admin/', include(admin.site.urls)),
-    url(r'^accounts/', include('registration.backends.default.urls')),
+    # url(r'^accounts/', include('registration.backends.default.urls')),
     url(r'^social/', include('social.apps.django_app.urls', namespace='social')),
+    url(r'^logout/$', 'homepro.views.logout', name='logout'),
 
  
  ]
